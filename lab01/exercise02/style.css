@@ -19,7 +19,7 @@ section {
     border:solid 1px lightgray;
     float: left;
     width: 21%;
-    padding: 0 1%;
+    padding: 0;
     
 }
 img {
@@ -61,7 +61,7 @@ button {
     section {
         float: left;
         width: 46%;
-        padding: 0 1%;
+        padding: 0;
     }
 }
 
@@ -70,7 +70,7 @@ button {
     section {
         float: left;
         width: 98%;
-        padding: 0 1%;
+        padding: 0;
     }
     
 }
