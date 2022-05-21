@@ -40,7 +40,7 @@ const followUser = (userId, elem) => {
 
 const unfollowUser = (followingId,elem) =>{
     //issue a delete request
-    fetch(`https://airociv-photo-app.herokuapp.com/api/following/${followingId}`, {
+    fetch(`/api/following/${followingId}`, {
             method: "DELETE"
         })
         .then(response => response.json())
@@ -72,7 +72,7 @@ const user2Html = user => {
 };
 
 const getSuggestions = () => {
-    fetch("https://airociv-photo-app.herokuapp.com/api/suggestions/")
+    fetch("/api/suggestions/")
         .then(response=>response.json())
         .then(users => {
             console.log(users);
